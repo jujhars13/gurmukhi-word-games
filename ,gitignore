@@ -1,0 +1,22 @@
+# Vim temporary files
+*.swp
+*.swo
+*.swn
+*.swm
+*.sml
+*.un~
+*.tmp
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# Vue.js
+node_modules/
+dist/
+*.log
+*.env.local
+*.env.*.local
+.DS_Store
+.idea/
