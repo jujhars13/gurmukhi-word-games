@@ -1,0 +1,12 @@
+{
+
+    lines: {[
+    {
+        "ੳ": "a",
+        "ਅ": "aa",
+        "ੲ": "i",
+        "ਸ": "s",
+        "ਹ": "h"
+    }],
+   "description": "The Gurmukhi alphabet"}
+}
