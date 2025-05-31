@@ -52,16 +52,21 @@ const akhar={
 ]
 };
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
     // Your code here
     console.log('Document is ready!');
-    let alphabetData = [];
 
     let container = document.getElementById('container');
 
-        renderGurmukhiAll(akhar);
+    akhar.lines.forEach((line) => {
+        let tmp=document.createElement('span');
+            tmp.className = 'letter';
+            tmp.textContent = line;
+            // tmp.setAttribute('data-letter', value);
+            console.log(tmp);
+    });
 
-
+    console.log(results);
 
 
 })();
