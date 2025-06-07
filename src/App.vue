@@ -7,7 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Gurmukhi Word Games</a>
+        <a class="navbar-brand" href="#">Gurmukhi Games</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,11 +31,6 @@ import HelloWorld from './components/HelloWorld.vue'
         </div>
       </div>
     </nav>
-
-    <div class="text-center mb-4">
-      <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-      <HelloWorld msg="Gurmukhi Word Games with Bootstrap" />
-    </div>
 
     <div class="row">
       <div class="col-md-12">

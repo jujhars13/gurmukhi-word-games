@@ -32,8 +32,8 @@ const wordGames = ref([
     <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Gurmukhi Games</h1>
-        <p class="col-md-8 fs-4">Learn and practice Gurmukhi through interactive word games</p>
-        <p>Get started by selecting a game below</p>
+        <p class="col-md-8 fs-4">Learn and practice Gurmukhi through interactive games</p>
+        <p>Select a game below</p>
       </div>
     </div>
 
