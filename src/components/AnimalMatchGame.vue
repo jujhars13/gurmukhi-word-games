@@ -3,8 +3,14 @@ import { ref, computed, onMounted } from 'vue'
 import animalsData from '@/data/animals.json'
 
 // Game state
-const animals = ref<any[]>([])
-const selectedAnimal = ref<any>(null)
+interface Animal {
+  animal: string
+  gurmukhi: string
+  image: string
+}
+
+const animals = ref<Animal[]>([])
+const selectedAnimal = ref<Animal>(null)
 const userGuess = ref('')
 const message = ref('')
 const score = ref(0)
