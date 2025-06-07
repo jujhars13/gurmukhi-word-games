@@ -25,9 +25,6 @@ import HelloWorld from './components/HelloWorld.vue'
               <RouterLink class="nav-link" to="/">Home</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/games">Games</RouterLink>
-            </li>
-            <li class="nav-item">
               <RouterLink class="nav-link" to="/about">About</RouterLink>
             </li>
           </ul>

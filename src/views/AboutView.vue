@@ -2,7 +2,7 @@
   <div class="about">
     <div class="card mb-4">
       <div class="card-header">
-        <h2>About Gurmukhi Word Games</h2>
+        <h2>About Gurmukhi Games</h2>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -11,9 +11,9 @@
 
         <h4>What is Gurmukhi?</h4>
         <p>
-          Gurmukhi is a script used primarily for the Punjabi language. It was standardized by Guru
-          Angad Dev Ji, the second Sikh Guru, in the 16th century. The name 'Gurmukhi' literally
-          means 'from the mouth of the Guru'.
+          Gurmukhi is a script invented by Guru Nanank. It was standardized by Guru Angad Dev Ji,
+          the second Sikh Guru, in the 16th century. The name 'Gurmukhi' literally means 'from the
+          mouth of the Guru'.
         </p>
 
         <h4>Our Mission</h4>
