@@ -5,23 +5,35 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div class="container">
-    <b-navbar toggleable="lg" type="dark" variant="primary" class="mb-4">
-      <b-navbar-brand href="#">Gurmukhi Word Games</b-navbar-brand>
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-      <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
-          <b-nav-item>
-            <RouterLink class="text-white text-decoration-none" to="/">Home</RouterLink>
-          </b-nav-item>
-          <b-nav-item>
-            <RouterLink class="text-white text-decoration-none" to="/games">Games</RouterLink>
-          </b-nav-item>
-          <b-nav-item>
-            <RouterLink class="text-white text-decoration-none" to="/about">About</RouterLink>
-          </b-nav-item>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Gurmukhi Word Games</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/">Home</RouterLink>
+            </li>
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/games">Games</RouterLink>
+            </li>
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/about">About</RouterLink>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div class="text-center mb-4">
       <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
@@ -30,9 +42,11 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="row">
       <div class="col-md-12">
-        <b-card class="shadow-sm">
-          <RouterView />
-        </b-card>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <RouterView />
+          </div>
+        </div>
       </div>
     </div>
   </div>

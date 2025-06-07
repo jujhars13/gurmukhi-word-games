@@ -29,49 +29,43 @@ const wordGames = ref([
 
 <template>
   <div class="home">
-    <b-jumbotron
-      header="Gurmukhi Word Games"
-      lead="Learn and practice Gurmukhi through interactive word games"
-      bg-variant="light"
-      class="mb-4"
-    >
-      <p>Get started by selecting a game below</p>
-      <b-button variant="primary" to="/games">Play Games Now</b-button>
-    </b-jumbotron>
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Gurmukhi Word Games</h1>
+        <p class="col-md-8 fs-4">Learn and practice Gurmukhi through interactive word games</p>
+        <p>Get started by selecting a game below</p>
+        <RouterLink to="/games" class="btn btn-primary btn-lg">Play Games Now</RouterLink>
+      </div>
+    </div>
 
     <h2 class="mb-4">Available Games</h2>
 
-    <b-row>
-      <b-col v-for="game in wordGames" :key="game.id" md="4" class="mb-4">
-        <b-card :title="game.title" class="h-100">
-          <template #image>
-            <b-img :src="game.image" alt="Game image" fluid></b-img>
-          </template>
-          <b-card-text>
-            {{ game.description }}
-          </b-card-text>
-
-          <b-badge
-            :variant="
-              game.difficulty === 'Easy'
-                ? 'success'
-                : game.difficulty === 'Medium'
-                  ? 'warning'
-                  : 'danger'
-            "
-          >
-            {{ game.difficulty }}
-          </b-badge>
-
-          <template #footer>
-            <b-button :href="`#game-${game.id}`" variant="outline-primary" block
-              >Play Game</b-button
+    <div class="row">
+      <div class="col-md-4 mb-4" v-for="game in wordGames" :key="game.id">
+        <div class="card h-100">
+          <img :src="game.image" class="card-img-top" :alt="game.title" />
+          <div class="card-body">
+            <h5 class="card-title">{{ game.title }}</h5>
+            <p class="card-text">{{ game.description }}</p>
+            <span
+              :class="`badge ${
+                game.difficulty === 'Easy'
+                  ? 'bg-success'
+                  : game.difficulty === 'Medium'
+                    ? 'bg-warning'
+                    : 'bg-danger'
+              }`"
             >
-          </template>
-        </b-card>
-      </b-col>
-    </b-row>
+              {{ game.difficulty }}
+            </span>
+          </div>
+          <div class="card-footer">
+            <RouterLink :to="`/games`" class="btn btn-outline-primary w-100">Play Game</RouterLink>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <b-alert show variant="info" class="mt-4"> More games coming soon! </b-alert>
+    <div class="alert alert-info mt-4">More games coming soon!</div>
   </div>
 </template>

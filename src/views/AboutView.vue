@@ -1,59 +1,79 @@
 <template>
   <div class="about">
-    <b-card no-body class="mb-4">
-      <b-card-header>
+    <div class="card mb-4">
+      <div class="card-header">
         <h2>About Gurmukhi Word Games</h2>
-      </b-card-header>
-      <b-card-body>
-        <b-card-text>
-          <p class="lead">
-            This application provides interactive word games to help users learn Gurmukhi script.
-          </p>
+      </div>
+      <div class="card-body">
+        <p class="lead">
+          This application provides interactive word games to help users learn Gurmukhi script.
+        </p>
 
-          <h4>What is Gurmukhi?</h4>
-          <p>
-            Gurmukhi is a script used primarily for the Punjabi language. It was standardized by
-            Guru Angad Dev Ji, the second Sikh Guru, in the 16th century. The name 'Gurmukhi'
-            literally means 'from the mouth of the Guru'.
-          </p>
+        <h4>What is Gurmukhi?</h4>
+        <p>
+          Gurmukhi is a script used primarily for the Punjabi language. It was standardized by Guru
+          Angad Dev Ji, the second Sikh Guru, in the 16th century. The name 'Gurmukhi' literally
+          means 'from the mouth of the Guru'.
+        </p>
 
-          <h4>Our Mission</h4>
-          <p>
-            Our mission is to make learning Gurmukhi accessible and enjoyable through interactive
-            word games. Whether you're a beginner or looking to improve your skills, our games cater
-            to all levels.
-          </p>
-        </b-card-text>
-      </b-card-body>
-    </b-card>
+        <h4>Our Mission</h4>
+        <p>
+          Our mission is to make learning Gurmukhi accessible and enjoyable through interactive word
+          games. Whether you're a beginner or looking to improve your skills, our games cater to all
+          levels.
+        </p>
+      </div>
+    </div>
 
-    <b-row>
-      <b-col md="6">
-        <b-card title="How to Play" class="mb-4">
-          <ol>
-            <li>Choose a game from the home page</li>
-            <li>Read the instructions for the specific game</li>
-            <li>Practice and have fun while learning!</li>
-            <li>Track your progress and challenge yourself</li>
-          </ol>
-          <b-button variant="primary">Start Playing</b-button>
-        </b-card>
-      </b-col>
-      <b-col md="6">
-        <b-card title="Contact Us" class="mb-4">
-          <p>Have questions or suggestions? We'd love to hear from you!</p>
-          <b-form>
-            <b-form-group label="Email address:">
-              <b-form-input type="email" placeholder="Enter your email"></b-form-input>
-            </b-form-group>
-            <b-form-group label="Message:">
-              <b-form-textarea rows="3" placeholder="Enter your message"></b-form-textarea>
-            </b-form-group>
-            <b-button variant="info">Submit</b-button>
-          </b-form>
-        </b-card>
-      </b-col>
-    </b-row>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-header">
+            <h5 class="card-title">How to Play</h5>
+          </div>
+          <div class="card-body">
+            <ol>
+              <li>Choose a game from the home page</li>
+              <li>Read the instructions for the specific game</li>
+              <li>Practice and have fun while learning!</li>
+              <li>Track your progress and challenge yourself</li>
+            </ol>
+            <RouterLink to="/games" class="btn btn-primary">Start Playing</RouterLink>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-header">
+            <h5 class="card-title">Contact Us</h5>
+          </div>
+          <div class="card-body">
+            <p>Have questions or suggestions? We'd love to hear from you!</p>
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-info">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

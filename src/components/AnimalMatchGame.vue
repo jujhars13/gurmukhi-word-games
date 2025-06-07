@@ -72,78 +72,85 @@ const accuracy = computed(() => {
 </script>
 
 <template>
-  <b-card title="Animal Matching Game" class="mb-4">
-    <b-card-text>
+  <div class="card mb-4">
+    <div class="card-header">
+      <h2>Animal Matching Game</h2>
+    </div>
+    <div class="card-body">
       <p class="lead">Match the Gurmukhi text with the correct animal name in English</p>
 
       <div v-if="selectedAnimal" class="text-center mb-4">
         <h2 class="display-4 gurmukhi-text">{{ selectedAnimal.gurmukhi }}</h2>
 
         <div class="mt-4">
-          <b-img
+          <img
             v-if="showAnswer"
             :src="selectedAnimal.image"
-            alt="Animal image"
-            fluid
-            thumbnail
-            class="mb-3"
+            :alt="selectedAnimal.animal"
+            class="img-fluid img-thumbnail mb-3"
             style="max-height: 200px"
-          ></b-img>
+          />
         </div>
 
-        <b-form @submit.prevent="checkAnswer" class="mt-4">
-          <b-form-group label="Your answer:">
-            <b-form-input
+        <form @submit.prevent="checkAnswer" class="mt-4">
+          <div class="mb-3">
+            <label for="animalGuess" class="form-label">Your answer:</label>
+            <input
+              id="animalGuess"
               v-model="userGuess"
+              type="text"
+              class="form-control"
               placeholder="Type the animal name in English"
               :disabled="showAnswer"
-            ></b-form-input>
-          </b-form-group>
+            />
+          </div>
 
           <div class="d-flex justify-content-between mt-3">
-            <b-button type="submit" variant="primary" :disabled="!userGuess || showAnswer">
+            <button type="submit" class="btn btn-primary" :disabled="!userGuess || showAnswer">
               Check Answer
-            </b-button>
+            </button>
 
-            <b-button variant="info" @click="revealAnswer" :disabled="showAnswer">
+            <button type="button" class="btn btn-info" @click="revealAnswer" :disabled="showAnswer">
               Show Answer
-            </b-button>
+            </button>
 
-            <b-button variant="outline-secondary" @click="nextAnimal" :disabled="!showAnswer">
+            <button
+              type="button"
+              class="btn btn-outline-secondary"
+              @click="nextAnimal"
+              :disabled="!showAnswer"
+            >
               Next Animal
-            </b-button>
+            </button>
           </div>
-        </b-form>
+        </form>
 
-        <b-alert
+        <div
           v-if="message"
-          show
-          :variant="
-            message.includes('Correct')
-              ? 'success'
-              : message.includes('Incorrect')
-                ? 'danger'
-                : 'info'
-          "
-          class="mt-4"
+          class="alert mt-4"
+          :class="{
+            'alert-success': message.includes('Correct'),
+            'alert-danger': message.includes('Incorrect'),
+            'alert-info': !message.includes('Correct') && !message.includes('Incorrect'),
+          }"
         >
           {{ message }}
-        </b-alert>
+        </div>
       </div>
 
       <div v-else class="text-center">
         <p>Game completed! Click the button below to play again.</p>
-        <b-button variant="primary" @click="initializeGame">Start New Game</b-button>
+        <button class="btn btn-primary" @click="initializeGame">Start New Game</button>
       </div>
-    </b-card-text>
+    </div>
 
-    <template #footer>
+    <div class="card-footer">
       <div class="d-flex justify-content-between">
         <span>Score: {{ score }}/{{ totalAttempts }}</span>
         <span>Accuracy: {{ accuracy }}%</span>
       </div>
-    </template>
-  </b-card>
+    </div>
+  </div>
 </template>
 
 <style scoped>
