@@ -1,48 +1,39 @@
-# Gurmukhi Word Games
+# .
 
-This project is a Vue.js application designed for interactive word games in Gurmukhi. It provides a fun and educational way to learn and engage with the Gurmukhi language.
+This template should help get you started developing with Vue 3 in Vite.
 
-## Project Structure
+## Recommended IDE Setup
 
-- **src/assets**: Contains static assets such as images, fonts, and stylesheets used in the application.
-- **src/components**: Contains reusable Vue components.
-  - **HelloWorld.vue**: A component that displays a greeting message.
-- **src/views**: Contains the main views of the application.
-  - **Home.vue**: The home view of the application.
-- **src/App.vue**: The root component of the Vue application.
-- **src/main.js**: The entry point of the Vue application.
-- **src/router/index.js**: Defines the routes for the application.
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Installation
+## Type Support for `.vue` Imports in TS
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-2. Navigate to the project directory:
-   ```
-   cd gurmukhi-word-games
-   ```
+## Customize configuration
 
-3. Install the dependencies:
-   ```
-   npm install
-   ```
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Usage
+## Project Setup
 
-To run the application in development mode, use the following command:
-```
-npm run serve
+```sh
+npm install
 ```
 
-Open your browser and navigate to `http://localhost:8080` to see the application in action.
+### Compile and Hot-Reload for Development
 
-## Contributing
+```sh
+npm run dev
+```
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or features you'd like to add.
+### Type-Check, Compile and Minify for Production
 
-## License
+```sh
+npm run build
+```
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
