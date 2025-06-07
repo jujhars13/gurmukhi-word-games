@@ -1,0 +1,44 @@
+name: Build and Deploy
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  # Allow manual workflow runs
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      # Adjust base URL for GitHub Pages
+      - name: Fix base URL
+        run: |
+          # Get the repository name to construct correct base path
+          REPO_NAME=$(echo "$GITHUB_REPOSITORY" | cut -d'/' -f2)
+          # Update index.html to use the correct base path
+          find dist -name "*.html" -exec sed -i "s/<base href=\"\/\">/<base href=\"\/$REPO_NAME\/\">/g" {} \;
+          find dist -name "*.js" -exec sed -i "s/baseUrl:\"/baseUrl:\"\/\$REPO_NAME/g" {} \;
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # The folder the action should deploy
+          branch: gh-pages # The branch the action should deploy to
+          clean: true # Automatically remove deleted files from the deploy branch
