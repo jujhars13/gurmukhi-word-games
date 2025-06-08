@@ -19,14 +19,6 @@ const wordGames = ref([
     difficulty: 'Easy',
     image: 'https://via.placeholder.com/300x200?text=Word+Puzzle',
   },
-  {
-    id: 3,
-    title: 'Spelling Challenge',
-    path: '/games/spelling-challenge',
-    description: 'Test your Gurmukhi spelling skills',
-    difficulty: 'Hard',
-    image: 'https://via.placeholder.com/300x200?text=Spelling+Challenge',
-  },
 ])
 </script>
 
@@ -36,11 +28,8 @@ const wordGames = ref([
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Gurmukhi Games</h1>
         <p class="col-md-8 fs-4">Learn and practice Gurmukhi through interactive games</p>
-        <p>Select a game below</p>
       </div>
     </div>
-
-    <h2 class="mb-4">Available Games</h2>
 
     <div class="row">
       <div class="col-md-4 mb-4" v-for="game in wordGames" :key="game.id">
