@@ -33,3 +33,14 @@ a,
     padding: 0 2rem;
   }
 }
+
+.gurmukhi-text {
+  font-size: 8rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.green {
+  color: #10ebca;
+}

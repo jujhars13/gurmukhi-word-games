@@ -5,21 +5,24 @@ import { ref } from 'vue'
 const wordGames = ref([
   {
     id: 1,
-    title: 'Word Match',
-    description: 'Match English words with their Gurmukhi equivalents',
-    difficulty: 'Easy',
+    title: 'Animal Match',
+    path: '/games/animal-match',
+    description: 'Match English animal names with their Gurmukhi transliterated equivalents',
+    difficulty: 'Medium',
     image: 'https://via.placeholder.com/300x200?text=Word+Match',
   },
   {
     id: 2,
-    title: 'Word Puzzle',
-    description: 'Solve word puzzles using Gurmukhi characters',
-    difficulty: 'Medium',
+    title: 'Random Line Game',
+    path: '/games/random-line',
+    description: 'Recognise Gurmukhi words from a randomised line',
+    difficulty: 'Easy',
     image: 'https://via.placeholder.com/300x200?text=Word+Puzzle',
   },
   {
     id: 3,
     title: 'Spelling Challenge',
+    path: '/games/spelling-challenge',
     description: 'Test your Gurmukhi spelling skills',
     difficulty: 'Hard',
     image: 'https://via.placeholder.com/300x200?text=Spelling+Challenge',
@@ -59,11 +62,10 @@ const wordGames = ref([
             </span>
           </div>
           <div class="card-footer">
-            <RouterLink :to="`/games`" class="btn btn-outline-primary w-100">Play Game</RouterLink>
+            <RouterLink :to="game.path" class="btn btn-outline-primary w-100">Play Game</RouterLink>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </template>

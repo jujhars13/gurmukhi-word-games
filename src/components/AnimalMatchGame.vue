@@ -159,11 +159,4 @@ const accuracy = computed(() => {
   </div>
 </template>
 
-<style scoped>
-.gurmukhi-text {
-  font-size: 8rem;
-  line-height: 1.5;
-  font-weight: bold;
-  color: #007bff;
-}
-</style>
+<style scoped></style>

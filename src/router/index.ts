@@ -18,9 +18,14 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/games',
-      name: 'games',
-      component: () => import('../views/GamesView.vue'),
+      path: '/games/animal-match',
+      name: 'animal-match',
+      component: () => import('../views/AnimalMatchGameView.vue'),
+    },
+    {
+      path: '/games/random-line',
+      name: 'random-line',
+      component: () => import('../views/RandomLineGameView.vue'),
     },
     {
       // Catch-all route for GitHub Pages 404 handling
