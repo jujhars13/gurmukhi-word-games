@@ -63,3 +63,7 @@ If you need to customize the deployment process, you can:
 
 1. Edit the `.github/workflows/deploy.yml` file to modify the GitHub Actions workflow
 2. Update the base URL in `vite.config.ts` if you're deploying to a different location
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
