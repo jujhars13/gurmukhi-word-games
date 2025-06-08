@@ -17,7 +17,7 @@ const wordGames = ref([
     path: '/games/random-line',
     description: 'Recognise Gurmukhi words from a randomised line',
     difficulty: 'Easy',
-    image: '/images/gurmukhi-animal-lines.png',
+    image: '/images/gurmukhi-random-lines.png',
   },
 ])
 </script>
