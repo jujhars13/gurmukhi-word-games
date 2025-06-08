@@ -9,7 +9,7 @@ const wordGames = ref([
     path: '/games/animal-match',
     description: 'Match English animal names with their Gurmukhi transliterated equivalents',
     difficulty: 'Medium',
-    image: 'https://via.placeholder.com/300x200?text=Word+Match',
+    image: '/images/gurmukhi-animal-match.png',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const wordGames = ref([
     path: '/games/random-line',
     description: 'Recognise Gurmukhi words from a randomised line',
     difficulty: 'Easy',
-    image: 'https://via.placeholder.com/300x200?text=Word+Puzzle',
+    image: '/images/gurmukhi-animal-lines.png',
   },
 ])
 </script>
