@@ -3,14 +3,14 @@ import { ref, computed, onMounted } from 'vue'
 import animalsData from '@/data/animals.json'
 
 // Game state
-// interface Animal {
-//   animal: string
-//   gurmukhi: string
-//   image: string
-// }
+interface Animal {
+  animal: string
+  gurmukhi: string
+  image: string
+}
 
-const animals = ref<any[]>([])
-const selectedAnimal = ref<any>(null)
+const animals = ref<Animal[]>([])
+const selectedAnimal = ref<Animal>({ animal: '', gurmukhi: '', image: '' })
 const userGuess = ref('')
 const message = ref('')
 const score = ref(0)
@@ -33,7 +33,7 @@ function initializeGame() {
 function nextAnimal() {
   if (animals.value.length === 0) {
     // Game completed
-    selectedAnimal.value = null
+    selectedAnimal.value = { animal: '', gurmukhi: '', image: '' }
     message.value = `Game completed! Your score: ${score.value}/${totalAttempts.value}`
     return
   }

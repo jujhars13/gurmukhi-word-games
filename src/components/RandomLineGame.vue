@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 import lineData from '@/data/akhar.json'
 
-const randomLine = <any[]>[]
+const randomLine = ref<object>([])
 const lineNumber = ref(0)
-const shuffledLetters = ref<any>(null)
+const shuffledLetters = ref<string>('')
 const showAnswer = ref(false)
 const message = ref('')
 
@@ -42,7 +42,7 @@ function revealAnswer() {
       </div>
     </div>
     <div class="text-center">
-      <button class="btn btn-secondary" @click="initializeGame">New Line</button>
+      <button class="btn btn-secondary" @click="initializeGame">Another Line</button>
     </div>
   </div>
 </template>
