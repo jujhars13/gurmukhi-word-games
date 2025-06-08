@@ -18,6 +18,11 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
+      path: '/games',
+      name: 'games',
+      component: () => import('../views/GamesView.vue'),
+    },
+    {
       // Catch-all route for GitHub Pages 404 handling
       path: '/:pathMatch(.*)*',
       name: 'not-found',
