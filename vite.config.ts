@@ -15,5 +15,6 @@ export default defineConfig({
   // Base URL configuration for GitHub Pages
   // In development, base URL is '/'
   // In production, use the repository name as the base URL: '/<repo-name>/'
-  base: process.env.NODE_ENV === 'production' ? '/gurmukhi-word-games/' : '/',
+  // base: process.env.NODE_ENV === 'production' ? '/gurmukhi-word-games/' : '/',
+  base: '/', //published to apex of a subdomain gurmukhi.har-rai.uk
 })
