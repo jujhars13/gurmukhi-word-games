@@ -161,7 +161,7 @@ const accuracy = computed(() => {
 
 <style scoped>
 .gurmukhi-text {
-  font-size: 3rem;
+  font-size: 8rem;
   line-height: 1.5;
   font-weight: bold;
   color: #007bff;

@@ -65,6 +65,5 @@ const wordGames = ref([
       </div>
     </div>
 
-    <div class="alert alert-info mt-4">More games coming soon!</div>
   </div>
 </template>
