@@ -64,6 +64,12 @@ If you need to customize the deployment process, you can:
 1. Edit the `.github/workflows/deploy.yml` file to modify the GitHub Actions workflow
 2. Update the base URL in `vite.config.ts` if you're deploying to a different location
 
+## Generating images
+
+```bash
+OPENAI_API_KEY=$(< ~/.secrets/jujhar/openai-key) ANIMAL=aardvark; echo "A cartoon $ANIMAL on a white background" | tee | dall-e-cli --pipe --size 1024x1024 --quality standard --download ./; mv *.png ../${ANIMAL}.png
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
