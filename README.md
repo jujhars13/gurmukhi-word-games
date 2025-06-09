@@ -67,7 +67,9 @@ If you need to customize the deployment process, you can:
 ## Generating images
 
 ```bash
-OPENAI_API_KEY=$(< ~/.secrets/jujhar/openai-key) ANIMAL=aardvark; echo "A cartoon $ANIMAL on a white background" | tee | dall-e-cli --pipe --size 1024x1024 --quality standard --download ./; mv *.png ../${ANIMAL}.png
+for ANIMAL in $(jq -r '.[].animal' ../../../src/data/animals.json); do OPENAI_API_KEY=$(< ~/.secrets/jujhar/openai-key) echo "A cartoon $ANIMAL on a white background" | tee | dall-e-cli --pipe --size 1024x1024 --quality standard --download ./; mv *.png ../${ANIMAL}.png; done
+
+
 ```
 
 ## License
