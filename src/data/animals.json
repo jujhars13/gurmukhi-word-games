@@ -257,7 +257,7 @@
   {
     "animal": "Guinea Pig",
     "gurmukhi": "ਗਿਨੀਆ ਪਿਗ",
-    "image": "/images/animals/guinea_pig.png"
+    "image": "/images/animals/guinea.png"
   },
   {
     "animal": "Gull",
@@ -367,7 +367,7 @@
   {
     "animal": "Komodo Dragon",
     "gurmukhi": "ਕੋਮੋਡੋ ਡ੍ਰੈਗਨ",
-    "image": "/images/animals/komodo_dragon.png"
+    "image": "/images/animals/komodo.png"
   },
   {
     "animal": "Kookaburra",
@@ -592,7 +592,7 @@
   {
     "animal": "Polar Bear",
     "gurmukhi": "ਪੋਲਰ ਬੇਅਰ",
-    "image": "/images/animals/polar_bear.png"
+    "image": "/images/animals/polar.png"
   },
   {
     "animal": "Porcupine",
@@ -612,7 +612,7 @@
   {
     "animal": "Prairie Dog",
     "gurmukhi": "ਪ੍ਰੇਰੀ ਡਾਗ",
-    "image": "/images/animals/prairie_dog.png"
+    "image": "/images/animals/prairie.png"
   },
   {
     "animal": "Puffin",
@@ -652,7 +652,7 @@
   {
     "animal": "Red Panda",
     "gurmukhi": "ਰੇਡ ਪਾਂਡਾ",
-    "image": "/images/animals/red_panda.png"
+    "image": "/images/animals/red.png"
   },
   {
     "animal": "Reindeer",
