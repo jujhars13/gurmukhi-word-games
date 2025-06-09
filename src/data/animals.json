@@ -2,876 +2,876 @@
   {
     "animal": "Alpaca",
     "gurmukhi": "ਅਲਪਾਕਾ",
-    "image": "https://example.com/images/alpaca.jpg"
+    "image": "/images/animals/alpaca.png"
   },
   {
     "animal": "Alligator",
     "gurmukhi": "ਐਲੀਗੇਟਰ",
-    "image": "https://example.com/images/alligator.jpg"
+    "image": "/images/animals/alligator.png"
   },
   {
     "animal": "Ant",
     "gurmukhi": "ਐਂਟ",
-    "image": "https://example.com/images/ant.jpg"
+    "image": "/images/animals/ant.png"
   },
   {
     "animal": "Antelope",
     "gurmukhi": "ਐਂਟੀਲੋਪ",
-    "image": "https://example.com/images/antelope.jpg"
+    "image": "/images/animals/antelope.png"
   },
   {
     "animal": "Armadillo",
     "gurmukhi": "ਆਰਮਾਡਿਲੋ",
-    "image": "https://example.com/images/armadillo.jpg"
+    "image": "/images/animals/armadillo.png"
   },
   {
     "animal": "Bat",
     "gurmukhi": "ਬੈਟ",
-    "image": "https://example.com/images/bat.jpg"
+    "image": "/images/animals/bat.png"
   },
   {
     "animal": "Bear",
     "gurmukhi": "ਬੇਅਰ",
-    "image": "https://example.com/images/bear.jpg"
+    "image": "/images/animals/bear.png"
   },
   {
     "animal": "Bee",
     "gurmukhi": "ਬੀ",
-    "image": "https://example.com/images/bee.jpg"
+    "image": "/images/animals/bee.png"
   },
   {
     "animal": "Bison",
     "gurmukhi": "ਬਾਈਸਨ",
-    "image": "https://example.com/images/bison.jpg"
+    "image": "/images/animals/bison.png"
   },
   {
     "animal": "Buffalo",
     "gurmukhi": "ਬਫੈਲੋ",
-    "image": "https://example.com/images/buffalo.jpg"
+    "image": "/images/animals/buffalo.png"
   },
   {
     "animal": "Butterfly",
     "gurmukhi": "ਬਟਰਫਲਾਈ",
-    "image": "https://example.com/images/butterfly.jpg"
+    "image": "/images/animals/butterfly.png"
   },
   {
     "animal": "Camel",
     "gurmukhi": "ਕੈਮਲ",
-    "image": "https://example.com/images/camel.jpg"
+    "image": "/images/animals/camel.png"
   },
   {
     "animal": "Caribou",
     "gurmukhi": "ਕੈਰੀਬੂ",
-    "image": "https://example.com/images/caribou.jpg"
+    "image": "/images/animals/caribou.png"
   },
   {
     "animal": "Cat",
     "gurmukhi": "ਕੈਟ",
-    "image": "https://example.com/images/cat.jpg"
+    "image": "/images/animals/cat.png"
   },
   {
     "animal": "Cheetah",
     "gurmukhi": "ਚੀਟਾਹ",
-    "image": "https://example.com/images/cheetah.jpg"
+    "image": "/images/animals/cheetah.png"
   },
   {
     "animal": "Chicken",
     "gurmukhi": "ਚਿਕਨ",
-    "image": "https://example.com/images/chicken.jpg"
+    "image": "/images/animals/chicken.png"
   },
   {
     "animal": "Chimpanzee",
     "gurmukhi": "ਚਿਮਪਾਂਜ਼ੀ",
-    "image": "https://example.com/images/chimpanzee.jpg"
+    "image": "/images/animals/chimpanzee.png"
   },
   {
     "animal": "Cobra",
     "gurmukhi": "ਕੋਬਰਾ",
-    "image": "https://example.com/images/cobra.jpg"
+    "image": "/images/animals/cobra.png"
   },
   {
     "animal": "Cougar",
     "gurmukhi": "ਕੂਗਰ",
-    "image": "https://example.com/images/cougar.jpg"
+    "image": "/images/animals/cougar.png"
   },
   {
     "animal": "Cow",
     "gurmukhi": "ਕਾਉ",
-    "image": "https://example.com/images/cow.jpg"
+    "image": "/images/animals/cow.png"
   },
   {
     "animal": "Coyote",
     "gurmukhi": "ਕਾਇਓਟੀ",
-    "image": "https://example.com/images/coyote.jpg"
+    "image": "/images/animals/coyote.png"
   },
   {
     "animal": "Crab",
     "gurmukhi": "ਕ੍ਰੈਬ",
-    "image": "https://example.com/images/crab.jpg"
+    "image": "/images/animals/crab.png"
   },
   {
     "animal": "Crocodile",
     "gurmukhi": "ਕਰੋਕੋਡਾਇਲ",
-    "image": "https://example.com/images/crocodile.jpg"
+    "image": "/images/animals/crocodile.png"
   },
   {
     "animal": "Crow",
     "gurmukhi": "ਕਰੋ",
-    "image": "https://example.com/images/crow.jpg"
+    "image": "/images/animals/crow.png"
   },
   {
     "animal": "Deer",
     "gurmukhi": "ਡੀਅਰ",
-    "image": "https://example.com/images/deer.jpg"
+    "image": "/images/animals/deer.png"
   },
   {
     "animal": "Dog",
     "gurmukhi": "ਡਾਗ",
-    "image": "https://example.com/images/dog.jpg"
+    "image": "/images/animals/dog.png"
   },
   {
     "animal": "Dolphin",
     "gurmukhi": "ਡਾਲਫਿਨ",
-    "image": "https://example.com/images/dolphin.jpg"
+    "image": "/images/animals/dolphin.png"
   },
   {
     "animal": "Donkey",
     "gurmukhi": "ਡਾਂਕੀ",
-    "image": "https://example.com/images/donkey.jpg"
+    "image": "/images/animals/donkey.png"
   },
   {
     "animal": "Dove",
     "gurmukhi": "ਡਵ",
-    "image": "https://example.com/images/dove.jpg"
+    "image": "/images/animals/dove.png"
   },
   {
     "animal": "Dragonfly",
     "gurmukhi": "ਡ੍ਰੈਗਨਫਲਾਈ",
-    "image": "https://example.com/images/dragonfly.jpg"
+    "image": "/images/animals/dragonfly.png"
   },
   {
     "animal": "Duck",
     "gurmukhi": "ਡਕ",
-    "image": "https://example.com/images/duck.jpg"
+    "image": "/images/animals/duck.png"
   },
   {
     "animal": "Eagle",
     "gurmukhi": "ਈਗਲ",
-    "image": "https://example.com/images/eagle.jpg"
+    "image": "/images/animals/eagle.png"
   },
   {
     "animal": "Eel",
     "gurmukhi": "ਈਲ",
-    "image": "https://example.com/images/eel.jpg"
+    "image": "/images/animals/eel.png"
   },
   {
     "animal": "Elephant",
     "gurmukhi": "ਐਲੀਫੈਂਟ",
-    "image": "https://example.com/images/elephant.jpg"
+    "image": "/images/animals/elephant.png"
   },
   {
     "animal": "Elk",
     "gurmukhi": "ਐਲਕ",
-    "image": "https://example.com/images/elk.jpg"
+    "image": "/images/animals/elk.png"
   },
   {
     "animal": "Falcon",
     "gurmukhi": "ਫਾਲਕਨ",
-    "image": "https://example.com/images/falcon.jpg"
+    "image": "/images/animals/falcon.png"
   },
   {
     "animal": "Ferret",
     "gurmukhi": "ਫੈਰਟ",
-    "image": "https://example.com/images/ferret.jpg"
+    "image": "/images/animals/ferret.png"
   },
   {
     "animal": "Finch",
     "gurmukhi": "ਫਿੰਚ",
-    "image": "https://example.com/images/finch.jpg"
+    "image": "/images/animals/finch.png"
   },
   {
     "animal": "Fish",
     "gurmukhi": "ਫਿਸ਼",
-    "image": "https://example.com/images/fish.jpg"
+    "image": "/images/animals/fish.png"
   },
   {
     "animal": "Flamingo",
     "gurmukhi": "ਫਲੇਮਿੰਗੋ",
-    "image": "https://example.com/images/flamingo.jpg"
+    "image": "/images/animals/flamingo.png"
   },
   {
     "animal": "Fly",
     "gurmukhi": "ਫਲਾਈ",
-    "image": "https://example.com/images/fly.jpg"
+    "image": "/images/animals/fly.png"
   },
   {
     "animal": "Fox",
     "gurmukhi": "ਫਾਕਸ",
-    "image": "https://example.com/images/fox.jpg"
+    "image": "/images/animals/fox.png"
   },
   {
     "animal": "Frog",
     "gurmukhi": "ਫਰਾਗ",
-    "image": "https://example.com/images/frog.jpg"
+    "image": "/images/animals/frog.png"
   },
   {
     "animal": "Gazelle",
     "gurmukhi": "ਗਜ਼ੇਲ",
-    "image": "https://example.com/images/gazelle.jpg"
+    "image": "/images/animals/gazelle.png"
   },
   {
     "animal": "Gerbil",
     "gurmukhi": "ਗਰਬਿਲ",
-    "image": "https://example.com/images/gerbil.jpg"
+    "image": "/images/animals/gerbil.png"
   },
   {
     "animal": "Giraffe",
     "gurmukhi": "ਜਿਰਾਫ",
-    "image": "https://example.com/images/giraffe.jpg"
+    "image": "/images/animals/giraffe.png"
   },
   {
     "animal": "Goat",
     "gurmukhi": "ਗੋਟ",
-    "image": "https://example.com/images/goat.jpg"
+    "image": "/images/animals/goat.png"
   },
   {
     "animal": "Goose",
     "gurmukhi": "ਗੂਸ",
-    "image": "https://example.com/images/goose.jpg"
+    "image": "/images/animals/goose.png"
   },
   {
     "animal": "Gopher",
     "gurmukhi": "ਗੋਫਰ",
-    "image": "https://example.com/images/gopher.jpg"
+    "image": "/images/animals/gopher.png"
   },
   {
     "animal": "Gorilla",
     "gurmukhi": "ਗੋਰਿਲਾ",
-    "image": "https://example.com/images/gorilla.jpg"
+    "image": "/images/animals/gorilla.png"
   },
   {
     "animal": "Grasshopper",
     "gurmukhi": "ਗ੍ਰਾਸਹਾਪਰ",
-    "image": "https://example.com/images/grasshopper.jpg"
+    "image": "/images/animals/grasshopper.png"
   },
   {
     "animal": "Guinea Pig",
     "gurmukhi": "ਗਿਨੀਆ ਪਿਗ",
-    "image": "https://example.com/images/guinea_pig.jpg"
+    "image": "/images/animals/guinea_pig.png"
   },
   {
     "animal": "Gull",
     "gurmukhi": "ਗਲ",
-    "image": "https://example.com/images/gull.jpg"
+    "image": "/images/animals/gull.png"
   },
   {
     "animal": "Hamster",
     "gurmukhi": "ਹੈਮਸਟਰ",
-    "image": "https://example.com/images/hamster.jpg"
+    "image": "/images/animals/hamster.png"
   },
   {
     "animal": "Hare",
     "gurmukhi": "ਹੇਅਰ",
-    "image": "https://example.com/images/hare.jpg"
+    "image": "/images/animals/hare.png"
   },
   {
     "animal": "Hawk",
     "gurmukhi": "ਹਾਕ",
-    "image": "https://example.com/images/hawk.jpg"
+    "image": "/images/animals/hawk.png"
   },
   {
     "animal": "Hedgehog",
     "gurmukhi": "ਹੇਜਹਾਗ",
-    "image": "https://example.com/images/hedgehog.jpg"
+    "image": "/images/animals/hedgehog.png"
   },
   {
     "animal": "Heron",
     "gurmukhi": "ਹੇਰੋਨ",
-    "image": "https://example.com/images/heron.jpg"
+    "image": "/images/animals/heron.png"
   },
   {
     "animal": "Hippopotamus",
     "gurmukhi": "ਹਿਪੋਪੋਟਾਮਸ",
-    "image": "https://example.com/images/hippopotamus.jpg"
+    "image": "/images/animals/hippopotamus.png"
   },
   {
     "animal": "Hornet",
     "gurmukhi": "ਹਾਰਨੈਟ",
-    "image": "https://example.com/images/hornet.jpg"
+    "image": "/images/animals/hornet.png"
   },
   {
     "animal": "Horse",
     "gurmukhi": "ਹੋਰਸ",
-    "image": "https://example.com/images/horse.jpg"
+    "image": "/images/animals/horse.png"
   },
   {
     "animal": "Hummingbird",
     "gurmukhi": "ਹਮਿੰਗਬਰਡ",
-    "image": "https://example.com/images/hummingbird.jpg"
+    "image": "/images/animals/hummingbird.png"
   },
   {
     "animal": "Hyena",
     "gurmukhi": "ਹਾਈਨਾ",
-    "image": "https://example.com/images/hyena.jpg"
+    "image": "/images/animals/hyena.png"
   },
   {
     "animal": "Ibex",
     "gurmukhi": "ਆਈਬੈਕਸ",
-    "image": "https://example.com/images/ibex.jpg"
+    "image": "/images/animals/ibex.png"
   },
   {
     "animal": "Iguana",
     "gurmukhi": "ਇਗੁਆਨਾ",
-    "image": "https://example.com/images/iguana.jpg"
+    "image": "/images/animals/iguana.png"
   },
   {
     "animal": "Impala",
     "gurmukhi": "ਇੰਪਾਲਾ",
-    "image": "https://example.com/images/impala.jpg"
+    "image": "/images/animals/impala.png"
   },
   {
     "animal": "Jackal",
     "gurmukhi": "ਜੈਕਲ",
-    "image": "https://example.com/images/jackal.jpg"
+    "image": "/images/animals/jackal.png"
   },
   {
     "animal": "Jaguar",
     "gurmukhi": "ਜੈਗੁਆਰ",
-    "image": "https://example.com/images/jaguar.jpg"
+    "image": "/images/animals/jaguar.png"
   },
   {
     "animal": "Jellyfish",
     "gurmukhi": "ਜੈਲੀਫਿਸ਼",
-    "image": "https://example.com/images/jellyfish.jpg"
+    "image": "/images/animals/jellyfish.png"
   },
   {
     "animal": "Kangaroo",
     "gurmukhi": "ਕੈਂਗਰੂ",
-    "image": "https://example.com/images/kangaroo.jpg"
+    "image": "/images/animals/kangaroo.png"
   },
   {
     "animal": "Kingfisher",
     "gurmukhi": "ਕਿੰਗਫਿਸ਼ਰ",
-    "image": "https://example.com/images/kingfisher.jpg"
+    "image": "/images/animals/kingfisher.png"
   },
   {
     "animal": "Kiwi",
     "gurmukhi": "ਕੀਵੀ",
-    "image": "https://example.com/images/kiwi.jpg"
+    "image": "/images/animals/kiwi.png"
   },
   {
     "animal": "Koala",
     "gurmukhi": "ਕੋਆਲਾ",
-    "image": "https://example.com/images/koala.jpg"
+    "image": "/images/animals/koala.png"
   },
   {
     "animal": "Komodo Dragon",
     "gurmukhi": "ਕੋਮੋਡੋ ਡ੍ਰੈਗਨ",
-    "image": "https://example.com/images/komodo_dragon.jpg"
+    "image": "/images/animals/komodo_dragon.png"
   },
   {
     "animal": "Kookaburra",
     "gurmukhi": "ਕੂਕਾਬੁਰਾ",
-    "image": "https://example.com/images/kookaburra.jpg"
+    "image": "/images/animals/kookaburra.png"
   },
   {
     "animal": "Lark",
     "gurmukhi": "ਲਾਰਕ",
-    "image": "https://example.com/images/lark.jpg"
+    "image": "/images/animals/lark.png"
   },
   {
     "animal": "Leopard",
     "gurmukhi": "ਲੇਪਾਰਡ",
-    "image": "https://example.com/images/leopard.jpg"
+    "image": "/images/animals/leopard.png"
   },
   {
     "animal": "Lion",
     "gurmukhi": "ਲਾਇਅਨ",
-    "image": "https://example.com/images/lion.jpg"
+    "image": "/images/animals/lion.png"
   },
   {
     "animal": "Llama",
     "gurmukhi": "ਲਾਮਾ",
-    "image": "https://example.com/images/llama.jpg"
+    "image": "/images/animals/llama.png"
   },
   {
     "animal": "Lobster",
     "gurmukhi": "ਲਾਬਸਟਰ",
-    "image": "https://example.com/images/lobster.jpg"
+    "image": "/images/animals/lobster.png"
   },
   {
     "animal": "Lynx",
     "gurmukhi": "ਲਿੰਕਸ",
-    "image": "https://example.com/images/lynx.jpg"
+    "image": "/images/animals/lynx.png"
   },
   {
     "animal": "Magpie",
     "gurmukhi": "ਮੈਗਪਾਈ",
-    "image": "https://example.com/images/magpie.jpg"
+    "image": "/images/animals/magpie.png"
   },
   {
     "animal": "Manatee",
     "gurmukhi": "ਮੈਨਟੀ",
-    "image": "https://example.com/images/manatee.jpg"
+    "image": "/images/animals/manatee.png"
   },
   {
     "animal": "Mandrill",
     "gurmukhi": "ਮੈਂਡ੍ਰਿਲ",
-    "image": "https://example.com/images/mandrill.jpg"
+    "image": "/images/animals/mandrill.png"
   },
   {
     "animal": "Mantis",
     "gurmukhi": "ਮੈਂਟਿਸ",
-    "image": "https://example.com/images/mantis.jpg"
+    "image": "/images/animals/mantis.png"
   },
   {
     "animal": "Marmot",
     "gurmukhi": "ਮਾਰਮੋਟ",
-    "image": "https://example.com/images/marmot.jpg"
+    "image": "/images/animals/marmot.png"
   },
   {
     "animal": "Meerkat",
     "gurmukhi": "ਮੀਰਕੈਟ",
-    "image": "https://example.com/images/meerkat.jpg"
+    "image": "/images/animals/meerkat.png"
   },
   {
     "animal": "Mink",
     "gurmukhi": "ਮਿੰਕ",
-    "image": "https://example.com/images/mink.jpg"
+    "image": "/images/animals/mink.png"
   },
   {
     "animal": "Mole",
     "gurmukhi": "ਮੋਲ",
-    "image": "https://example.com/images/mole.jpg"
+    "image": "/images/animals/mole.png"
   },
   {
     "animal": "Monkey",
     "gurmukhi": "ਮੰਕੀ",
-    "image": "https://example.com/images/monkey.jpg"
+    "image": "/images/animals/monkey.png"
   },
   {
     "animal": "Moose",
     "gurmukhi": "ਮੂਸ",
-    "image": "https://example.com/images/moose.jpg"
+    "image": "/images/animals/moose.png"
   },
   {
     "animal": "Mosquito",
     "gurmukhi": "ਮਸਕੀਟੋ",
-    "image": "https://example.com/images/mosquito.jpg"
+    "image": "/images/animals/mosquito.png"
   },
   {
     "animal": "Moth",
     "gurmukhi": "ਮੌਥ",
-    "image": "https://example.com/images/moth.jpg"
+    "image": "/images/animals/moth.png"
   },
   {
     "animal": "Mouse",
     "gurmukhi": "ਮਾਊਸ",
-    "image": "https://example.com/images/mouse.jpg"
+    "image": "/images/animals/mouse.png"
   },
   {
     "animal": "Mule",
     "gurmukhi": "ਮਿਊਲ",
-    "image": "https://example.com/images/mule.jpg"
+    "image": "/images/animals/mule.png"
   },
   {
     "animal": "Narwhal",
     "gurmukhi": "ਨਾਰਵਾਲ",
-    "image": "https://example.com/images/narwhal.jpg"
+    "image": "/images/animals/narwhal.png"
   },
   {
     "animal": "Newt",
     "gurmukhi": "ਨਿਊਟ",
-    "image": "https://example.com/images/newt.jpg"
+    "image": "/images/animals/newt.png"
   },
   {
     "animal": "Nightingale",
     "gurmukhi": "ਨਾਈਟਿੰਗੇਲ",
-    "image": "https://example.com/images/nightingale.jpg"
+    "image": "/images/animals/nightingale.png"
   },
   {
     "animal": "Octopus",
     "gurmukhi": "ਆਕਟੋਪਸ",
-    "image": "https://example.com/images/octopus.jpg"
+    "image": "/images/animals/octopus.png"
   },
   {
     "animal": "Okapi",
     "gurmukhi": "ਓਕਾਪੀ",
-    "image": "https://example.com/images/okapi.jpg"
+    "image": "/images/animals/okapi.png"
   },
   {
     "animal": "Opossum",
     "gurmukhi": "ਓਪੋਸਮ",
-    "image": "https://example.com/images/opossum.jpg"
+    "image": "/images/animals/opossum.png"
   },
   {
     "animal": "Orangutan",
     "gurmukhi": "ਓਰੈਂਗੂਟੈਨ",
-    "image": "https://example.com/images/orangutan.jpg"
+    "image": "/images/animals/orangutan.png"
   },
   {
     "animal": "Orca",
     "gurmukhi": "ਓਰਕਾ",
-    "image": "https://example.com/images/orca.jpg"
+    "image": "/images/animals/orca.png"
   },
   {
     "animal": "Ostrich",
     "gurmukhi": "ਆਸਟ੍ਰਿਚ",
-    "image": "https://example.com/images/ostrich.jpg"
+    "image": "/images/animals/ostrich.png"
   },
   {
     "animal": "Otter",
     "gurmukhi": "ਆਟਰ",
-    "image": "https://example.com/images/otter.jpg"
+    "image": "/images/animals/otter.png"
   },
   {
     "animal": "Owl",
     "gurmukhi": "ਆਊਲ",
-    "image": "https://example.com/images/owl.jpg"
+    "image": "/images/animals/owl.png"
   },
   {
     "animal": "Ox",
     "gurmukhi": "ਆਕਸ",
-    "image": "https://example.com/images/ox.jpg"
+    "image": "/images/animals/ox.png"
   },
   {
     "animal": "Oyster",
     "gurmukhi": "ਆਇਸਟਰ",
-    "image": "https://example.com/images/oyster.jpg"
+    "image": "/images/animals/oyster.png"
   },
   {
     "animal": "Panda",
     "gurmukhi": "ਪਾਂਡਾ",
-    "image": "https://example.com/images/panda.jpg"
+    "image": "/images/animals/panda.png"
   },
   {
     "animal": "Panther",
     "gurmukhi": "ਪੈਂਥਰ",
-    "image": "https://example.com/images/panther.jpg"
+    "image": "/images/animals/panther.png"
   },
   {
     "animal": "Parrot",
     "gurmukhi": "ਪੈਰਟ",
-    "image": "https://example.com/images/parrot.jpg"
+    "image": "/images/animals/parrot.png"
   },
   {
     "animal": "Peacock",
     "gurmukhi": "ਪੀਕਾਕ",
-    "image": "https://example.com/images/peacock.jpg"
+    "image": "/images/animals/peacock.png"
   },
   {
     "animal": "Pelican",
     "gurmukhi": "ਪੈਲਿਕਨ",
-    "image": "https://example.com/images/pelican.jpg"
+    "image": "/images/animals/pelican.png"
   },
   {
     "animal": "Penguin",
     "gurmukhi": "ਪੇਂਗੁਇਨ",
-    "image": "https://example.com/images/penguin.jpg"
+    "image": "/images/animals/penguin.png"
   },
   {
     "animal": "Pheasant",
     "gurmukhi": "ਫੀਜ਼ੈਂਟ",
-    "image": "https://example.com/images/pheasant.jpg"
+    "image": "/images/animals/pheasant.png"
   },
   {
     "animal": "Pig",
     "gurmukhi": "ਪਿਗ",
-    "image": "https://example.com/images/pig.jpg"
+    "image": "/images/animals/pig.png"
   },
   {
     "animal": "Pigeon",
     "gurmukhi": "ਪਿਜਨ",
-    "image": "https://example.com/images/pigeon.jpg"
+    "image": "/images/animals/pigeon.png"
   },
   {
     "animal": "Platypus",
     "gurmukhi": "ਪਲੇਟਿਪਸ",
-    "image": "https://example.com/images/platypus.jpg"
+    "image": "/images/animals/platypus.png"
   },
   {
     "animal": "Polar Bear",
     "gurmukhi": "ਪੋਲਰ ਬੇਅਰ",
-    "image": "https://example.com/images/polar_bear.jpg"
+    "image": "/images/animals/polar_bear.png"
   },
   {
     "animal": "Porcupine",
     "gurmukhi": "ਪੋਰਕਿਊਪਾਈਨ",
-    "image": "https://example.com/images/porcupine.jpg"
+    "image": "/images/animals/porcupine.png"
   },
   {
     "animal": "Porpoise",
     "gurmukhi": "ਪੋਰਪੋਇਜ਼",
-    "image": "https://example.com/images/porpoise.jpg"
+    "image": "/images/animals/porpoise.png"
   },
   {
     "animal": "Possum",
     "gurmukhi": "ਪੋਸਮ",
-    "image": "https://example.com/images/possum.jpg"
+    "image": "/images/animals/possum.png"
   },
   {
     "animal": "Prairie Dog",
     "gurmukhi": "ਪ੍ਰੇਰੀ ਡਾਗ",
-    "image": "https://example.com/images/prairie_dog.jpg"
+    "image": "/images/animals/prairie_dog.png"
   },
   {
     "animal": "Puffin",
     "gurmukhi": "ਪਫਿਨ",
-    "image": "https://example.com/images/puffin.jpg"
+    "image": "/images/animals/puffin.png"
   },
   {
     "animal": "Quail",
     "gurmukhi": "ਕੁਏਲ",
-    "image": "https://example.com/images/quail.jpg"
+    "image": "/images/animals/quail.png"
   },
   {
     "animal": "Rabbit",
     "gurmukhi": "ਰੈਬਿਟ",
-    "image": "https://example.com/images/rabbit.jpg"
+    "image": "/images/animals/rabbit.png"
   },
   {
     "animal": "Raccoon",
     "gurmukhi": "ਰੈਕੂਨ",
-    "image": "https://example.com/images/raccoon.jpg"
+    "image": "/images/animals/raccoon.png"
   },
   {
     "animal": "Ram",
     "gurmukhi": "ਰੈਮ",
-    "image": "https://example.com/images/ram.jpg"
+    "image": "/images/animals/ram.png"
   },
   {
     "animal": "Rat",
     "gurmukhi": "ਰੈਟ",
-    "image": "https://example.com/images/rat.jpg"
+    "image": "/images/animals/rat.png"
   },
   {
     "animal": "Raven",
     "gurmukhi": "ਰੇਵਨ",
-    "image": "https://example.com/images/raven.jpg"
+    "image": "/images/animals/raven.png"
   },
   {
     "animal": "Red Panda",
     "gurmukhi": "ਰੇਡ ਪਾਂਡਾ",
-    "image": "https://example.com/images/red_panda.jpg"
+    "image": "/images/animals/red_panda.png"
   },
   {
     "animal": "Reindeer",
     "gurmukhi": "ਰੇਇਨਡੀਅਰ",
-    "image": "https://example.com/images/reindeer.jpg"
+    "image": "/images/animals/reindeer.png"
   },
   {
     "animal": "Rhinoceros",
     "gurmukhi": "ਰਾਈਨੋਸੋਰਸ",
-    "image": "https://example.com/images/rhinoceros.jpg"
+    "image": "/images/animals/rhinoceros.png"
   },
   {
     "animal": "Robin",
     "gurmukhi": "ਰੋਬਿਨ",
-    "image": "https://example.com/images/robin.jpg"
+    "image": "/images/animals/robin.png"
   },
   {
     "animal": "Rooster",
     "gurmukhi": "ਰੂਸਟਰ",
-    "image": "https://example.com/images/rooster.jpg"
+    "image": "/images/animals/rooster.png"
   },
   {
     "animal": "Salamander",
     "gurmukhi": "ਸਲਾਮੈਂਡਰ",
-    "image": "https://example.com/images/salamander.jpg"
+    "image": "/images/animals/salamander.png"
   },
   {
     "animal": "Salmon",
     "gurmukhi": "ਸੈਲਮਨ",
-    "image": "https://example.com/images/salmon.jpg"
+    "image": "/images/animals/salmon.png"
   },
   {
     "animal": "Scorpion",
     "gurmukhi": "ਸਕੋਰਪਿਅਨ",
-    "image": "https://example.com/images/scorpion.jpg"
+    "image": "/images/animals/scorpion.png"
   },
   {
     "animal": "Seahorse",
     "gurmukhi": "ਸੀਹੋਰਸ",
-    "image": "https://example.com/images/seahorse.jpg"
+    "image": "/images/animals/seahorse.png"
   },
   {
     "animal": "Seal",
     "gurmukhi": "ਸੀਲ",
-    "image": "https://example.com/images/seal.jpg"
+    "image": "/images/animals/seal.png"
   },
   {
     "animal": "Shark",
     "gurmukhi": "ਸ਼ਾਰਕ",
-    "image": "https://example.com/images/shark.jpg"
+    "image": "/images/animals/shark.png"
   },
   {
     "animal": "Sheep",
     "gurmukhi": "ਸ਼ੀਪ",
-    "image": "https://example.com/images/sheep.jpg"
+    "image": "/images/animals/sheep.png"
   },
   {
     "animal": "Shrimp",
     "gurmukhi": "ਸ਼੍ਰਿਮਪ",
-    "image": "https://example.com/images/shrimp.jpg"
+    "image": "/images/animals/shrimp.png"
   },
   {
     "animal": "Skunk",
     "gurmukhi": "ਸਕੰਕ",
-    "image": "https://example.com/images/skunk.jpg"
+    "image": "/images/animals/skunk.png"
   },
   {
     "animal": "Sloth",
     "gurmukhi": "ਸਲੋਥ",
-    "image": "https://example.com/images/sloth.jpg"
+    "image": "/images/animals/sloth.png"
   },
   {
     "animal": "Snail",
     "gurmukhi": "ਸਨੇਲ",
-    "image": "https://example.com/images/snail.jpg"
+    "image": "/images/animals/snail.png"
   },
   {
     "animal": "Snake",
     "gurmukhi": "ਸਨੇਕ",
-    "image": "https://example.com/images/snake.jpg"
+    "image": "/images/animals/snake.png"
   },
   {
     "animal": "Sparrow",
     "gurmukhi": "ਸਪੈਰੋ",
-    "image": "https://example.com/images/sparrow.jpg"
+    "image": "/images/animals/sparrow.png"
   },
   {
     "animal": "Spider",
     "gurmukhi": "ਸਪਾਈਡਰ",
-    "image": "https://example.com/images/spider.jpg"
+    "image": "/images/animals/spider.png"
   },
   {
     "animal": "Spoonbill",
     "gurmukhi": "ਸਪੂਨਬਿਲ",
-    "image": "https://example.com/images/spoonbill.jpg"
+    "image": "/images/animals/spoonbill.png"
   },
   {
     "animal": "Squirrel",
     "gurmukhi": "ਸਕੁਇਰਲ",
-    "image": "https://example.com/images/squirrel.jpg"
+    "image": "/images/animals/squirrel.png"
   },
   {
     "animal": "Starfish",
     "gurmukhi": "ਸਟਾਰਫਿਸ਼",
-    "image": "https://example.com/images/starfish.jpg"
+    "image": "/images/animals/starfish.png"
   },
   {
     "animal": "Stingray",
     "gurmukhi": "ਸਟਿੰਗਰੇ",
-    "image": "https://example.com/images/stingray.jpg"
+    "image": "/images/animals/stingray.png"
   },
   {
     "animal": "Stork",
     "gurmukhi": "ਸਟਾਰਕ",
-    "image": "https://example.com/images/stork.jpg"
+    "image": "/images/animals/stork.png"
   },
   {
     "animal": "Swallow",
     "gurmukhi": "ਸਵਾਲੋ",
-    "image": "https://example.com/images/swallow.jpg"
+    "image": "/images/animals/swallow.png"
   },
   {
     "animal": "Swan",
     "gurmukhi": "ਸਵਾਨ",
-    "image": "https://example.com/images/swan.jpg"
+    "image": "/images/animals/swan.png"
   },
   {
     "animal": "Tapir",
     "gurmukhi": "ਟੈਪੀਰ",
-    "image": "https://example.com/images/tapir.jpg"
+    "image": "/images/animals/tapir.png"
   },
   {
     "animal": "Termite",
     "gurmukhi": "ਟਰਮਾਈਟ",
-    "image": "https://example.com/images/termite.jpg"
+    "image": "/images/animals/termite.png"
   },
   {
     "animal": "Tiger",
     "gurmukhi": "ਟਾਈਗਰ",
-    "image": "https://example.com/images/tiger.jpg"
+    "image": "/images/animals/tiger.png"
   },
   {
     "animal": "Toad",
     "gurmukhi": "ਟੋਡ",
-    "image": "https://example.com/images/toad.jpg"
+    "image": "/images/animals/toad.png"
   },
   {
     "animal": "Tortoise",
     "gurmukhi": "ਟੋਰਟੋਇਜ਼",
-    "image": "https://example.com/images/tortoise.jpg"
+    "image": "/images/animals/tortoise.png"
   },
   {
     "animal": "Toucan",
     "gurmukhi": "ਟੂਕਨ",
-    "image": "https://example.com/images/toucan.jpg"
+    "image": "/images/animals/toucan.png"
   },
   {
     "animal": "Turkey",
     "gurmukhi": "ਟਰਕੀ",
-    "image": "https://example.com/images/turkey.jpg"
+    "image": "/images/animals/turkey.png"
   },
   {
     "animal": "Turtle",
     "gurmukhi": "ਟਰਟਲ",
-    "image": "https://example.com/images/turtle.jpg"
+    "image": "/images/animals/turtle.png"
   },
   {
     "animal": "Vulture",
     "gurmukhi": "ਵਲਚਰ",
-    "image": "https://example.com/images/vulture.jpg"
+    "image": "/images/animals/vulture.png"
   },
   {
     "animal": "Walrus",
     "gurmukhi": "ਵਾਲਰਸ",
-    "image": "https://example.com/images/walrus.jpg"
+    "image": "/images/animals/walrus.png"
   },
   {
     "animal": "Wasp",
     "gurmukhi": "ਵੈਸਪ",
-    "image": "https://example.com/images/wasp.jpg"
+    "image": "/images/animals/wasp.png"
   },
   {
     "animal": "Weasel",
     "gurmukhi": "ਵੀਜ਼ਲ",
-    "image": "https://example.com/images/weasel.jpg"
+    "image": "/images/animals/weasel.png"
   },
   {
     "animal": "Whale",
     "gurmukhi": "ਵੇਲ",
-    "image": "https://example.com/images/whale.jpg"
+    "image": "/images/animals/whale.png"
   },
   {
     "animal": "Wolf",
     "gurmukhi": "ਵੋਲਫ",
-    "image": "https://example.com/images/wolf.jpg"
+    "image": "/images/animals/wolf.png"
   },
   {
     "animal": "Wombat",
     "gurmukhi": "ਵੋਮਬੈਟ",
-    "image": "https://example.com/images/wombat.jpg"
+    "image": "/images/animals/wombat.png"
   },
   {
     "animal": "Woodpecker",
     "gurmukhi": "ਵੁਡਪੇਕਰ",
-    "image": "https://example.com/images/woodpecker.jpg"
+    "image": "/images/animals/woodpecker.png"
   },
   {
     "animal": "Worm",
     "gurmukhi": "ਵਰਮ",
-    "image": "https://example.com/images/worm.jpg"
+    "image": "/images/animals/worm.png"
   },
   {
     "animal": "Yak",
     "gurmukhi": "ਯਾਕ",
-    "image": "https://example.com/images/yak.jpg"
+    "image": "/images/animals/yak.png"
   },
   {
     "animal": "Zebra",
     "gurmukhi": "ਜ਼ੀਬਰਾ",
-    "image": "https://example.com/images/zebra.jpg"
+    "image": "/images/animals/zebra.png"
   }
 ]
