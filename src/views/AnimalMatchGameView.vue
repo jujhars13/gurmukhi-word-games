@@ -4,8 +4,6 @@ import AnimalMatchGame from '@/components/AnimalMatchGame.vue'
 
 <template>
   <div class="games">
-    <h1 class="mb-4">Games</h1>
-
     <AnimalMatchGame />
   </div>
 </template>

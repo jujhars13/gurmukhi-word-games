@@ -80,13 +80,13 @@ const accuracy = computed(() => {
 <template>
   <div class="card mb-4">
     <div class="card-header">
-      <h2>Animal Matching Game</h2>
+      <h2>Animal Matching</h2>
     </div>
     <div class="card-body">
       <p class="lead">Match the Gurmukhi text with the correct animal name in English</p>
 
       <div v-if="selectedAnimal" class="text-center mb-4">
-        <h2 class="display-4 gurmukhi-text">{{ selectedAnimal.gurmukhi }}</h2>
+        <h2 class="display-1 gurmukhi-text">{{ selectedAnimal.gurmukhi }}</h2>
 
         <div class="mt-4">
           <img
@@ -94,7 +94,7 @@ const accuracy = computed(() => {
             :src="selectedAnimal.image"
             :alt="selectedAnimal.animal"
             class="img-fluid img-thumbnail mb-3"
-            style="max-height: 200px"
+            style="max-height: 300px"
           />
         </div>
 
