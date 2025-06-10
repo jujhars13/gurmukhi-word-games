@@ -66,9 +66,13 @@ If you need to customize the deployment process, you can:
 
 ## Generating images
 
+using <https://github.com/marcolardera/dall-e-cli>
+
 ```bash
 for ANIMAL in $(jq -r '.[].animal' ../../../src/data/animals.json); do OPENAI_API_KEY=$(< ~/.secrets/jujhar/openai-key) echo "A cartoon $ANIMAL on a white background" | tee | dall-e-cli --pipe --size 1024x1024 --quality standard --download ./; mv *.png ../${ANIMAL}.png; done
 
+
+for ANIMAL in $(comm -23 /tmp/json_images.txt /tmp/dir_images.txt); do OPENAI_API_KEY=$(< ~/.secrets/jujhar/openai-key) echo "A cartoon $ANIMAL on a white background" | tee | dall-e-cli --pipe --size 1024x1024 --quality standard --download ./; mv *.png ../${ANIMAL}.png; done
 
 ```
 
