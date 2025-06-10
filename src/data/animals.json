@@ -685,193 +685,168 @@
     "image": "/images/animals/salmon.png"
   },
   {
-    "animal": "Scorpion",
-    "gurmukhi": "ਸਕੋਰਪਿਅਨ",
-    "image": "/images/animals/scorpion.png"
+    "animal": "Trout",
+    "gurmukhi": "ਟ੍ਰਾਊਟ",
+    "image": "/images/animals/trout.png"
   },
   {
-    "animal": "Seahorse",
-    "gurmukhi": "ਸੀਹੋਰਸ",
-    "image": "/images/animals/seahorse.png"
+    "animal": "Carp",
+    "gurmukhi": "ਕਾਰਪ",
+    "image": "/images/animals/carp.png"
   },
   {
-    "animal": "Seal",
-    "gurmukhi": "ਸੀਲ",
-    "image": "/images/animals/seal.png"
+    "animal": "Catfish",
+    "gurmukhi": "ਕੈਟਫਿਸ਼",
+    "image": "/images/animals/catfish.png"
   },
   {
-    "animal": "Shark",
-    "gurmukhi": "ਸ਼ਾਰਕ",
-    "image": "/images/animals/shark.png"
+    "animal": "Pike",
+    "gurmukhi": "ਪਾਈਕ",
+    "image": "/images/animals/pike.png"
   },
   {
-    "animal": "Sheep",
-    "gurmukhi": "ਸ਼ੀਪ",
-    "image": "/images/animals/sheep.png"
+    "animal": "Perch",
+    "gurmukhi": "ਪਰਚ",
+    "image": "/images/animals/perch.png"
   },
   {
-    "animal": "Shrimp",
-    "gurmukhi": "ਸ਼੍ਰਿਮਪ",
-    "image": "/images/animals/shrimp.png"
+    "animal": "Bass",
+    "gurmukhi": "ਬੈਸ",
+    "image": "/images/animals/bass.png"
   },
   {
-    "animal": "Skunk",
-    "gurmukhi": "ਸਕੰਕ",
-    "image": "/images/animals/skunk.png"
+    "animal": "Tuna",
+    "gurmukhi": "ਟੂਨਾ",
+    "image": "/images/animals/tuna.png"
   },
   {
-    "animal": "Sloth",
-    "gurmukhi": "ਸਲੋਥ",
-    "image": "/images/animals/sloth.png"
+    "animal": "Mackerel",
+    "gurmukhi": "ਮੈਕਰਲ",
+    "image": "/images/animals/mackerel.png"
   },
   {
-    "animal": "Snail",
-    "gurmukhi": "ਸਨੇਲ",
-    "image": "/images/animals/snail.png"
+    "animal": "Sardine",
+    "gurmukhi": "ਸਾਰਡੀਨ",
+    "image": "/images/animals/sardine.png"
   },
   {
-    "animal": "Snake",
-    "gurmukhi": "ਸਨੇਕ",
-    "image": "/images/animals/snake.png"
+    "animal": "Anchovy",
+    "gurmukhi": "ਐਂਚੋਵੀ",
+    "image": "/images/animals/anchovy.png"
   },
   {
-    "animal": "Sparrow",
-    "gurmukhi": "ਸਪੈਰੋ",
-    "image": "/images/animals/sparrow.png"
+    "animal": "Angelfish",
+    "gurmukhi": "ਐਂਜਲਫਿਸ਼",
+    "image": "/images/animals/angelfish.png"
   },
   {
-    "animal": "Spider",
-    "gurmukhi": "ਸਪਾਈਡਰ",
-    "image": "/images/animals/spider.png"
+    "animal": "Barracuda",
+    "gurmukhi": "ਬੈਰਾਕੂਡਾ",
+    "image": "/images/animals/barracuda.png"
   },
   {
-    "animal": "Spoonbill",
-    "gurmukhi": "ਸਪੂਨਬਿਲ",
-    "image": "/images/animals/spoonbill.png"
+    "animal": "Bass",
+    "gurmukhi": "ਬੈਸ",
+    "image": "/images/animals/bass.png"
   },
   {
-    "animal": "Squirrel",
-    "gurmukhi": "ਸਕੁਇਰਲ",
-    "image": "/images/animals/squirrel.png"
+    "animal": "Bluegill",
+    "gurmukhi": "ਬਲੂਗਿਲ",
+    "image": "/images/animals/bluegill.png"
   },
   {
-    "animal": "Starfish",
-    "gurmukhi": "ਸਟਾਰਫਿਸ਼",
-    "image": "/images/animals/starfish.png"
+    "animal": "Carp",
+    "gurmukhi": "ਕਾਰਪ",
+    "image": "/images/animals/carp.png"
   },
   {
-    "animal": "Stingray",
-    "gurmukhi": "ਸਟਿੰਗਰੇ",
-    "image": "/images/animals/stingray.png"
+    "animal": "Catfish",
+    "gurmukhi": "ਕੈਟਫਿਸ਼",
+    "image": "/images/animals/catfish.png"
   },
   {
-    "animal": "Stork",
-    "gurmukhi": "ਸਟਾਰਕ",
-    "image": "/images/animals/stork.png"
+    "animal": "Clownfish",
+    "gurmukhi": "ਕਲਾਊਨਫਿਸ਼",
+    "image": "/images/animals/clownfish.png"
   },
   {
-    "animal": "Swallow",
-    "gurmukhi": "ਸਵਾਲੋ",
-    "image": "/images/animals/swallow.png"
+    "animal": "Cod",
+    "gurmukhi": "ਕਾਡ",
+    "image": "/images/animals/cod.png"
   },
   {
-    "animal": "Swan",
-    "gurmukhi": "ਸਵਾਨ",
-    "image": "/images/animals/swan.png"
+    "animal": "Eel (Moray)",
+    "gurmukhi": "ਮੋਰੇਈ ਈਲ",
+    "image": "/images/animals/morayeel.png"
   },
   {
-    "animal": "Tapir",
-    "gurmukhi": "ਟੈਪੀਰ",
-    "image": "/images/animals/tapir.png"
+    "animal": "Flounder",
+    "gurmukhi": "ਫਲਾਉਂਡਰ",
+    "image": "/images/animals/flounder.png"
   },
   {
-    "animal": "Termite",
-    "gurmukhi": "ਟਰਮਾਈਟ",
-    "image": "/images/animals/termite.png"
+    "animal": "Goby",
+    "gurmukhi": "ਗੋਬੀ",
+    "image": "/images/animals/goby.png"
   },
   {
-    "animal": "Tiger",
-    "gurmukhi": "ਟਾਈਗਰ",
-    "image": "/images/animals/tiger.png"
+    "animal": "Grouper",
+    "gurmukhi": "ਗਰੂਪਰ",
+    "image": "/images/animals/grouper.png"
   },
   {
-    "animal": "Toad",
-    "gurmukhi": "ਟੋਡ",
-    "image": "/images/animals/toad.png"
+    "animal": "Haddock",
+    "gurmukhi": "ਹੈਡਾਕ",
+    "image": "/images/animals/haddock.png"
   },
   {
-    "animal": "Tortoise",
-    "gurmukhi": "ਟੋਰਟੋਇਜ਼",
-    "image": "/images/animals/tortoise.png"
+    "animal": "Halibut",
+    "gurmukhi": "ਹੈਲਿਬਟ",
+    "image": "/images/animals/halibut.png"
   },
   {
-    "animal": "Toucan",
-    "gurmukhi": "ਟੂਕਨ",
-    "image": "/images/animals/toucan.png"
+    "animal": "Mackerel",
+    "gurmukhi": "ਮੈਕਰਲ",
+    "image": "/images/animals/mackerel.png"
   },
   {
-    "animal": "Turkey",
-    "gurmukhi": "ਟਰਕੀ",
-    "image": "/images/animals/turkey.png"
+    "animal": "Perch",
+    "gurmukhi": "ਪਰਚ",
+    "image": "/images/animals/perch.png"
   },
   {
-    "animal": "Turtle",
-    "gurmukhi": "ਟਰਟਲ",
-    "image": "/images/animals/turtle.png"
+    "animal": "Pike",
+    "gurmukhi": "ਪਾਈਕ",
+    "image": "/images/animals/pike.png"
   },
   {
-    "animal": "Vulture",
-    "gurmukhi": "ਵਲਚਰ",
-    "image": "/images/animals/vulture.png"
+    "animal": "Sardine",
+    "gurmukhi": "ਸਾਰਡੀਨ",
+    "image": "/images/animals/sardine.png"
   },
   {
-    "animal": "Walrus",
-    "gurmukhi": "ਵਾਲਰਸ",
-    "image": "/images/animals/walrus.png"
+    "animal": "Swordfish",
+    "gurmukhi": "ਸਵੋਰਡਫਿਸ਼",
+    "image": "/images/animals/swordfish.png"
   },
   {
-    "animal": "Wasp",
-    "gurmukhi": "ਵੈਸਪ",
-    "image": "/images/animals/wasp.png"
+    "animal": "Tilapia",
+    "gurmukhi": "ਟਿਲਾਪੀਆ",
+    "image": "/images/animals/tilapia.png"
   },
   {
-    "animal": "Weasel",
-    "gurmukhi": "ਵੀਜ਼ਲ",
-    "image": "/images/animals/weasel.png"
+    "animal": "Trout",
+    "gurmukhi": "ਟ੍ਰਾਊਟ",
+    "image": "/images/animals/trout.png"
   },
   {
-    "animal": "Whale",
-    "gurmukhi": "ਵੇਲ",
-    "image": "/images/animals/whale.png"
+    "animal": "Tuna",
+    "gurmukhi": "ਟੂਨਾ",
+    "image": "/images/animals/tuna.png"
   },
   {
-    "animal": "Wolf",
-    "gurmukhi": "ਵੋਲਫ",
-    "image": "/images/animals/wolf.png"
-  },
-  {
-    "animal": "Wombat",
-    "gurmukhi": "ਵੋਮਬੈਟ",
-    "image": "/images/animals/wombat.png"
-  },
-  {
-    "animal": "Woodpecker",
-    "gurmukhi": "ਵੁਡਪੇਕਰ",
-    "image": "/images/animals/woodpecker.png"
-  },
-  {
-    "animal": "Worm",
-    "gurmukhi": "ਵਰਮ",
-    "image": "/images/animals/worm.png"
-  },
-  {
-    "animal": "Yak",
-    "gurmukhi": "ਯਾਕ",
-    "image": "/images/animals/yak.png"
-  },
-  {
-    "animal": "Zebra",
-    "gurmukhi": "ਜ਼ੀਬਰਾ",
-    "image": "/images/animals/zebra.png"
+    "animal": "Zebrafish",
+    "gurmukhi": "ਜ਼ੀਬ੍ਰਾਫਿਸ਼",
+    "image": "/images/animals/zebrafish.png"
   }
 ]
