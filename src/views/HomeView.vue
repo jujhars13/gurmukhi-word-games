@@ -19,6 +19,14 @@ const wordGames = ref([
     difficulty: 'Easy',
     image: '/images/gurmukhi-random-lines.png',
   },
+  {
+    id: 3,
+    title: 'Gurmukhi Spinner',
+    path: '/games/spinner-wheel',
+    description: 'Gurmukhi Spinner Wheel',
+    difficulty: 'Easy',
+    image: '/images/gurmukhi-random-lines.png',
+  },
 ])
 </script>
 

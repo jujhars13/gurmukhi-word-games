@@ -12,10 +12,12 @@ const router = createRouter({
     {
       path: '/about',
       name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
+    },
+    {
+      path: '/games',
+      name: 'games',
+      component: () => import('../views/GamesView.vue'),
     },
     {
       path: '/games/animal-match',
@@ -28,10 +30,9 @@ const router = createRouter({
       component: () => import('../views/RandomLineGameView.vue'),
     },
     {
-      // Catch-all route for GitHub Pages 404 handling
-      path: '/:pathMatch(.*)*',
-      name: 'not-found',
-      redirect: { name: 'home' },
+      path: '/games/spinner-wheel',
+      name: 'spinner-wheel',
+      component: () => import('../views/SpinnerWheelGameView.vue'),
     },
   ],
 })
