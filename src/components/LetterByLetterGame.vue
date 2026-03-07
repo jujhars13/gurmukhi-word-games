@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch, nextTick } from 'vue'
 import akharData from '@/data/akhar.json'
 
 const lines = akharData.lines
@@ -26,6 +26,15 @@ const handleKeydown = (e: KeyboardEvent) => {
 onMounted(() => window.addEventListener('keydown', handleKeydown))
 onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
 
+// Scroll active cell into view when index changes
+const gridContainer = ref<HTMLElement | null>(null)
+
+watch(currentIndex, async () => {
+  await nextTick()
+  const activeEl = gridContainer.value?.querySelector('.letter-cell.active') as HTMLElement | null
+  activeEl?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+})
+
 // Compute flat index for each cell
 const getFlatIndex = (rowIdx: number, colIdx: number) => rowIdx * 5 + colIdx
 </script>
@@ -37,7 +46,7 @@ const getFlatIndex = (rowIdx: number, colIdx: number) => rowIdx * 5 + colIdx
       Use <kbd>&larr;</kbd> <kbd>&rarr;</kbd> arrow keys to navigate
     </p>
 
-    <div class="grid-container">
+    <div ref="gridContainer" class="grid-container">
       <template v-for="(line, rowIdx) in lines" :key="rowIdx">
         <div
           v-for="(roman, gurmukhi, colIdx) in line"
