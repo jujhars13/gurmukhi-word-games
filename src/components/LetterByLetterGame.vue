@@ -58,8 +58,7 @@ const getFlatIndex = (rowIdx: number, colIdx: number) => rowIdx * 5 + colIdx
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 0.75rem;
-  max-width: 600px;
+  gap: clamp(0.4rem, 1.5vw, 1rem);
   margin: 0 auto;
 }
 
@@ -68,7 +67,7 @@ const getFlatIndex = (rowIdx: number, colIdx: number) => rowIdx * 5 + colIdx
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1rem 0.5rem;
+  padding: clamp(0.5rem, 2.5vw, 1.5rem) clamp(0.25rem, 1.5vw, 1rem);
   border-radius: 0.5rem;
   border: 2px solid #dee2e6;
   cursor: pointer;
@@ -86,12 +85,12 @@ const getFlatIndex = (rowIdx: number, colIdx: number) => rowIdx * 5 + colIdx
 }
 
 .gurmukhi {
-  font-size: 2.5rem;
+  font-size: clamp(1.8rem, 6vw, 4rem);
   line-height: 1.2;
 }
 
 .roman {
-  font-size: 0.85rem;
+  font-size: clamp(0.7rem, 2vw, 1.1rem);
   color: #6c757d;
   margin-top: 0.25rem;
 }
