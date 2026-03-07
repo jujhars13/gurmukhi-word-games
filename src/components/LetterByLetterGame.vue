@@ -8,6 +8,7 @@ const allLetters = computed(() =>
 )
 
 const currentIndex = ref(0)
+const showRoman = ref(true)
 
 const handleKeydown = (e: KeyboardEvent) => {
   if (e.key === 'ArrowRight') {
@@ -42,9 +43,21 @@ const getFlatIndex = (rowIdx: number, colIdx: number) => rowIdx * 5 + colIdx
 <template>
   <div class="letter-by-letter">
     <h1 class="text-center mb-3">Letter by Letter</h1>
-    <p class="text-center text-muted mb-4">
+    <p class="text-center text-muted mb-3">
       Use <kbd>&larr;</kbd> <kbd>&rarr;</kbd> arrow keys to navigate
     </p>
+    <div class="text-center mb-4">
+      <div class="form-check form-switch d-inline-flex align-items-center gap-2">
+        <input
+          id="toggleRoman"
+          v-model="showRoman"
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+        />
+        <label class="form-check-label" for="toggleRoman">Show transliterations</label>
+      </div>
+    </div>
 
     <div ref="gridContainer" class="grid-container">
       <template v-for="(line, rowIdx) in lines" :key="rowIdx">
