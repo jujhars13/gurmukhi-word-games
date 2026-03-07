@@ -8,7 +8,7 @@ const allLetters = computed(() =>
 )
 
 const currentIndex = ref(0)
-const showRoman = ref(true)
+const showRoman = ref(false)
 
 const handleKeydown = (e: KeyboardEvent) => {
   if (e.key === 'ArrowRight') {
@@ -69,7 +69,7 @@ const getFlatIndex = (rowIdx: number, colIdx: number) => rowIdx * 5 + colIdx
           @click="currentIndex = getFlatIndex(rowIdx, colIdx as number)"
         >
           <span class="gurmukhi">{{ gurmukhi }}</span>
-          <span class="roman">{{ roman }}</span>
+          <span v-if="showRoman" class="roman">{{ roman }}</span>
         </div>
       </template>
     </div>
