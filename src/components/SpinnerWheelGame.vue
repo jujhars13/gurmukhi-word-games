@@ -2,9 +2,9 @@
 import { ref, onMounted, computed } from 'vue'
 import akharData from '@/data/akhar.json'
 
-const letters = ref(akharData)
+const letters = ref(akharData.letters)
 const spinning = ref(false)
-const selectedLetter = ref(null)
+const selectedLetter = ref<{ letter: string; name: string } | null>(null)
 const rotationDegree = ref(0)
 const previousRotation = ref(0)
 
@@ -26,7 +26,7 @@ const segmentColors = [
 const totalLetters = computed(() => letters.value.length)
 
 // Get color for a segment based on index
-const getSegmentColor = (index) => {
+const getSegmentColor = (index: number) => {
   return segmentColors[index % segmentColors.length]
 }
 
