@@ -27,6 +27,14 @@ const wordGames = ref([
     difficulty: 'Easy',
     image: '/images/gurmukhi-random-lines.png',
   },
+  {
+    id: 4,
+    title: 'Letter by Letter',
+    path: '/games/letter-by-letter',
+    description: 'Navigate through all 35 Gurmukhi letters one by one with arrow keys',
+    difficulty: 'Easy',
+    image: '/images/gurmukhi-random-lines.png',
+  },
 ])
 </script>
 

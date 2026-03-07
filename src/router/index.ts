@@ -34,6 +34,11 @@ const router = createRouter({
       name: 'spinner-wheel',
       component: () => import('../views/SpinnerWheelGameView.vue'),
     },
+    {
+      path: '/games/letter-by-letter',
+      name: 'letter-by-letter',
+      component: () => import('../views/LetterByLetterGameView.vue'),
+    },
   ],
 })
 
